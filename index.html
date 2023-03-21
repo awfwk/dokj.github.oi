@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #p1{
+            transform:rotate(90deg);
+            font-size: 100px;
+            /*    绝对定位*/
+            position: absolute;
+            left: -330px;
+            top: 200px
+
+        }
+        .p2{
+            font-size: 60px;
+            font-family: 汉仪综艺体简;
+        /*    相对路径*/
+            position: relative;
+            left:150px;
+            top: 50px;
+            margin-top: -30px;
+        }
+        .man{
+            color: ivory;
+            margin-right: 50px;
+            float: right;
+            /*将标签靠右边*/
+            font-size: 30px;
+        }
+        #man2{
+            color: ivory;
+            margin-top: -12px;
+            margin-right: -188px;
+            letter-spacing: 10px;
+            float: right;
+        }
+        body,html{
+            /*将内容布满*/
+            height: 100%;
+            width: 100%;
+            background-color: pink;
+            background-image: url('https://s1.ax1x.com/2023/03/21/ppUy9qP.jpg');
+        /*    图片背景图基于容器大小伸缩*/
+            background-size: cover;
+        /*    当内容高度大于图片高度时，背景图像的位置相对于viewport固定*/
+            background-attachment: fixed;
+
+        }
+        .w1{
+            margin-left:150px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+
+    <p id="p1">MANAGEMENT</p>
+    <p class="man">MANAGEMENT</p>
+    <br><br><br><br>
+    <p ID="man2" >FORTCOM</p>
+    <p class="p2">向往</p>
+    <p class="p2" style="margin-top:-50px">自由</p>
+    <p style="font-size: 40px; font-family: 黑体; margin-top:90px" class="w1">
+        突破限制，打破常规
+    </p>
+    <p style="margin-top:-40px" class="w1">
+        突破极限挑战自我，向着新生活进发
+    </p>
+    <p style="font-size: 40px" class="w1">
+        2&nbsp;0&nbsp;2&nbsp;4&ensp; /&ensp; 6&ensp; /&ensp; 8
+    </p>
+    <p style="float: right; bottom: 50px;margin-right: 45%; color: ivory">
+        O&emsp;N&emsp;E&emsp;D&emsp;A&emsp;Y
+    </p>
+
+
+
+</body>
+</html>
